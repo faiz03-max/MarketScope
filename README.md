@@ -25,6 +25,7 @@ A **Predictive Model** that:
 
 ## 🚀 Key Features
 * **Synthetic Data Generation:** Python script that creates a realistic dataset of 100 stores with correlated variables (e.g., Higher Income = Higher Sales).
+* **REST API Deployment:** Utilizes FastAPI to serve the trained Machine Learning model, allowing external applications to send JSON demographic data and receive instant sales projections.
 * **Predictive Modeling:** Uses `scikit-learn` (Linear Regression) to train a model on historical data.
 * **Scenario Output:** Generates a CSV report of projected sales, ready for ingestion into Power BI for "Rent vs. Revenue" stress testing.
 
